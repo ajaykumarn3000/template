@@ -1,4 +1,9 @@
 ```bash
+# Clone repository                                                                        
+git clone -b next-ts-shadcn-authjs-prisma https://github.com/ajaykumarn3000/template.git
+```
+
+```bash
 # Install dependencies
 npm install
 ```
