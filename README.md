@@ -1,34 +1,47 @@
 ```bash
+# Install dependencies
 npm install
 ```
 
 ```bash
+# Generate a secret for authentication
 npx auth secret
 ```
 
-Create a new app on google cloud
+### Create a New App on Google Cloud
 
-Authorized redirect URIs = http://localhost:3000/api/auth/callback/google 
+1. Go to the Google Cloud Console and create a new app.
+2. Set the **Authorized Redirect URIs** to:
+  ```
+  http://localhost:3000/api/auth/callback/google
+  ```
 
-### Add environment vaiables to 
+### Add Environment Variables
 
-.env.local
-```py
-AUTH_SECRET= # Added by `npx auth`. Read more: https://cli.authjs.dev
-AUTH_GOOGLE_ID=
-AUTH_GOOGLE_SECRET=
+Create or update the following files with the required environment variables:
+
+#### `.env.local`
+```env
+AUTH_SECRET= # Automatically added by `npx auth`. Read more: https://cli.authjs.dev
+AUTH_GOOGLE_ID= # Your Google Client ID
+AUTH_GOOGLE_SECRET= # Your Google Client Secret
 ```
 
-.env
-```py
-DATABASE_URL=
+#### `.env`
+```env
+DATABASE_URL= # Your database connection string
 ```
+
+### Database Setup
+
+Run the following commands to set up and generate the database schema:
 
 ```bash
+# Apply database migrations
 pnpm exec prisma migrate dev
 ```
 
-To generate
 ```bash
+# Generate Prisma client
 pnpm exec prisma generate
 ```
