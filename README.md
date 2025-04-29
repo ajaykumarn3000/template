@@ -1,8 +1,12 @@
-# Other templates
-- [React(vite) + Typescript](https://github.com/ajaykumarn3000/template/tree/react-ts)
-- [React(vite) + Typescript + Shadcn-ui](https://github.com/ajaykumarn3000/template/tree/react-ts-shadcn)
-- [Nextjs + Typescript](https://github.com/ajaykumarn3000/template/tree/next-ts)
-- [Nextjs + Typescript + Shadcn-ui](https://github.com/ajaykumarn3000/template/tree/next-ts-shadcn)
+# Project Overview
+This project provides a set of template configurations for modern web development. It includes setups for React (Vite) + TypeScript, Next.js, Shadcn-ui, Authjs, and Prisma to help you quickly bootstrap scalable web applications.
+
+# Available Templates
+- [React(vite) + TypeScript](https://github.com/ajaykumarn3000/template/tree/react-ts)
+- [React(vite) + TypeScript + Shadcn-ui](https://github.com/ajaykumarn3000/template/tree/react-ts-shadcn)
+- [Nextjs + TypeScript](https://github.com/ajaykumarn3000/template/tree/next-ts)
+- [Nextjs + TypeScript + Shadcn-ui](https://github.com/ajaykumarn3000/template/tree/next-ts-shadcn)
+- **[Nextjs + TypeScript + Shadcn-ui + Authjs + Prisma](https://github.com/ajaykumarn3000/template/tree/next-ts-shadcn-authjs-prisma)** *(current branch)*
 
 # Get Started with Nextjs + TS + Shadcn-ui + Authjs + Prisma
 
