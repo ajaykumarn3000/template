@@ -8,7 +8,7 @@ This project provides a set of template configurations for modern web developmen
 - [Nextjs + TypeScript + Shadcn-ui](https://github.com/ajaykumarn3000/template/tree/next-ts-shadcn)
 - [Nextjs + TypeScript + Shadcn-ui + Authjs + Prisma](https://github.com/ajaykumarn3000/template/tree/next-ts-shadcn-authjs-prisma)
 
-# Get Started with React(vite) + TypeScript
+# Get Started with Nextjs + TypeScript
 
 ```bash
 # Clone repository                                                                        
