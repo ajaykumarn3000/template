@@ -1,3 +1,11 @@
+# Other templates
+- [React(vite) + Typescript](https://github.com/ajaykumarn3000/template/tree/react-ts)
+- [React(vite) + Typescript + Shadcn-ui](https://github.com/ajaykumarn3000/template/tree/react-ts-shadcn)
+- [Nextjs + Typescript](https://github.com/ajaykumarn3000/template/tree/next-ts)
+- [Nextjs + Typescript + Shadcn-ui](https://github.com/ajaykumarn3000/template/tree/next-ts-shadcn)
+
+# Get Started with Nextjs + TS + Shadcn-ui + Authjs + Prisma
+
 ```bash
 # Clone repository                                                                        
 git clone -b next-ts-shadcn-authjs-prisma https://github.com/ajaykumarn3000/template.git
